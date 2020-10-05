@@ -1,0 +1,64 @@
+body{ 
+    width: 100vw;
+    height: 100vh;
+}
+
+.happy h2{
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.happy p{
+    font-family:cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.happy h4{
+    font-family: fantasy;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.display{
+    position: relative;
+
+}
+
+.content{
+     position: absolute;
+    top: 70%;
+    left: 35%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.content-2{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: left;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+}
+
+
+.my-img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.secondGrid{
+      display: flex; 
+     justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
